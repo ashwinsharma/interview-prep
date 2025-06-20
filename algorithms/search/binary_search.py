@@ -1,6 +1,6 @@
 import random
 
-def binary_search(sorted_values: list[int], target: int):
+def binary_search(sorted_values: list[int], target: int) -> tuple[int, int]:
     left = 0
     right = len(sorted_values) - 1
     comparison_count = 0
