@@ -3,7 +3,7 @@ Submission Link: https://leetcode.com/problems/product-of-array-except-self/subm
 """
 
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: list[int]) -> list[int]:
         n = len(nums)
 
         L = [0] * n
